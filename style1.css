@@ -1,0 +1,124 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Hanken Grotesk" ;
+}
+body{
+    height: 100vh;
+    width: 70%;
+    background-color:hsl(0, 69%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.content{
+    width: 85%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(221, 100%, 96%);
+    box-shadow: 
+        5px 10px 5px rgba(128, 128, 128, 0.795),   /* ظل لليمين والأسفل */
+        -5px 0px 5px rgba(128, 128, 128, 0.795), /* ظل لليسار والأعلى */
+        5px 0px 5px rgba(128, 128, 128, 0.795),  /* ظل لليمين والأعلى */
+        -5px 10px 5px rgba(128, 128, 128, 0.795);  /* ظل لليسار والأسفل */
+}
+.items{
+    display: flex;
+    border-radius: 30px;
+    width: 50%;
+    height: 55%;
+    background-color: white;
+}
+.result{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 115%;
+    background:linear-gradient(to bottom, hsl(252, 81%, 69%) ,hsl(241, 81%, 54%) 55%);
+    border-radius: 30px;
+}
+.result h3{
+    color: rgba(255, 255, 255, 0.541);
+    text-align: center;
+    font-weight: 300;
+    margin-top: 30px;
+}
+.circule{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: hsla(256, 72%, 46%, 1);
+    padding: 20px;
+   color: rgba(255, 255, 255, 0.541); 
+}
+.circule h1{
+    font-weight: bold;
+    font-size: 58px;
+    color: aliceblue;
+}
+.result .great{
+    color: aliceblue;
+    margin-top: 10px;
+}
+.result .details{
+    color: rgba(255, 255, 255, 0.541); 
+    margin-top: 5px;
+    width: 70%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.summary{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    background-color: white;
+    border-radius: 30px;
+    border-top-left-radius:0 ;    
+    border-bottom-left-radius:0 ;    
+}
+.summary h3{
+    margin-top: 30px;
+    margin-left: 10px;
+    color: black;
+
+}
+.rejection{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    background-color:  hsla(0, 100%, 67%, 0.089);
+    padding: 0px;
+    border-radius: 20px;
+}   
+.rejection>p{
+
+    color:  hsl(0, 100%, 67%);
+}
+.rejection .num{
+    color: black;
+}
+.rejection span{
+    color: rgba(0, 0, 0, 0.61);
+}
+
+button{
+    background-color:  hsl(241, 72%, 46%) !important;
+    padding: 10px;
+    border-radius: 30px;
+    width: 80%;
+    margin: auto;
+    font-size: 20px;
+    color: aliceblue;
+}
